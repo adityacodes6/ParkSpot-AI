@@ -272,7 +272,7 @@ else:
     st.subheader("🤖 AI Insights")
 
     st.info(
-        "The uploaded Mumbai dataset does not contain a target such as occupied/vacant "
+        "The Mumbai dataset does not contain a target such as occupied/vacant "
         "or historical availability. Therefore, a supervised occupancy-prediction model "
         "would be misleading. Instead, ParkSpot AI uses K-Means clustering to group "
         "real parking locations by capacity and parking-lot area."
